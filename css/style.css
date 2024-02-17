@@ -185,7 +185,7 @@ header .follow a:hover {
 /**********************************/
 
 .home .content .hi {
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--main-color);
 }
 
@@ -263,22 +263,22 @@ header .follow a:hover {
     color: var(--main-color);
 }
 
-.about .row-2{
+.about .row-2 {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    align-items: center;  
+    align-items: center;
 }
 
-.about .row-2 .skills{
+.about .row-2 .skills {
     flex: 1 1 40rem;
 }
 
-.about .row-2 .skills .progress{
-    padding: 1rem  0;
+.about .row-2 .skills .progress {
+    padding: 1rem 0;
 }
 
-.about .row-2 .skills .progress h3{
+.about .row-2 .skills .progress h3 {
     display: flex;
     justify-content: space-between;
     padding: .7rem 0;
@@ -287,15 +287,15 @@ header .follow a:hover {
     font-weight: 400;
 }
 
-.about .row-2 .skills .progress .bar{
+.about .row-2 .skills .progress .bar {
     width: 100%;
-    background:  #ccc;
+    background: #ccc;
     overflow: hidden;
     height: 1rem;
     border-radius: 50rem;
 }
 
-.about .row-2 .skills .progress .bar span{
+.about .row-2 .skills .progress .bar span {
     display: block;
     height: 100%;
     background-color: var(--main-color);
@@ -303,28 +303,31 @@ header .follow a:hover {
 }
 
 /*Use JavaScript instead of this following code*/
-.about .row-2 .skills .progress:nth-child(1) .bar span{
+.about .row-2 .skills .progress:nth-child(1) .bar span {
     width: 95%;
 }
-.about .row-2 .skills .progress:nth-child(2) .bar span{
+
+.about .row-2 .skills .progress:nth-child(2) .bar span {
     width: 85%;
 }
-.about .row-2 .skills .progress:nth-child(3) .bar span{
+
+.about .row-2 .skills .progress:nth-child(3) .bar span {
     width: 90%;
 }
-.about .row-2 .skills .progress:nth-child(4) .bar span{
+
+.about .row-2 .skills .progress:nth-child(4) .bar span {
     width: 80%;
 }
 
 
-.about .row-2 .box-container{
+.about .row-2 .box-container {
     flex: 1 1 40rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
 
-.about .row-2 .box-container .box{
+.about .row-2 .box-container .box {
     flex: 1 1 15rem;
     background-color: #fff;
     padding: 2rem;
@@ -332,17 +335,53 @@ header .follow a:hover {
     box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
 }
 
-.about .row-2 .box-container .box h3{
-    color:  var(--main-color);
+.about .row-2 .box-container .box h3 {
+    color: var(--main-color);
     font-size: 3rem;
 }
 
-.about .row-2 .box-container .box p{
+.about .row-2 .box-container .box p {
     color: #666;
     font-size: 1.7rem;
     padding-top: .5rem;
 }
 
+.service .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.service .box-container .box{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow:  .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.service .box-container .box i{
+    height:  6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+
+.service .box-container .box h3{
+    color: #444;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service .box-container .box p{
+    color: #666;
+    font-style: 1.7rem;
+    padding-top: 1rem;
+}
 
 
 
