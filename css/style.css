@@ -115,7 +115,7 @@ header .follow a:hover {
     position: fixed;
     top: 1rem;
     right: 1rem;
-    z-index: 1000;
+    z-index: 100000;
     background: var(--main-color);
     color: #fff;
     border-radius: .5rem;
@@ -579,7 +579,20 @@ header .follow a:hover {
 .contact .row form .btn{
     margin-top: 0;
     margin-bottom: 1.5rem;
-    
+
+}
+
+footer{
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 2.5rem;
+    text-align: center;
+    color: #666;
+    background: #fff;
+}
+
+footer span {
+    color: var(--main-color);
 }
 
 
